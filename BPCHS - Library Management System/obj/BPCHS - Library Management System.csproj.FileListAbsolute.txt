@@ -1,0 +1,28 @@
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS - Library Management System.exe
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS - Library Management System.pdb
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\bin\Debug\BPCHS - Library Management System.exe
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\bin\Debug\BPCHS - Library Management System.pdb
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.Properties.Resources.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.ucBook.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.ucBorrowBook.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.ucBorrower.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.ucListOfBorrowedBooks.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.ucLogHist.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.ucReturnBook.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.ucUnreturnedBooks.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.ucUser.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfAccessionBooks.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfBookClassification.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfBookReport.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfBorrowersetting.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfBorrowerTypeSet.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfBorrowerTypeSettings.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfDeweySet.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfForgotPassword.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfHollidays.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfHome.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfLogIn.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.wfPayment.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS___Library_Management_System.User_Setting.resources
+C:\Users\Nuh\Desktop\New Thesis\BPCHS - Library Management System\BPCHS - Library Management System\obj\Debug\BPCHS - Library Management System.csproj.GenerateResource.Cache

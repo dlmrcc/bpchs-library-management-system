@@ -1,0 +1,325 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{22E409A6-53CE-4335-B928-7AEBAD3BD4C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BPCHS___Library_Management_System</RootNamespace>
+    <AssemblyName>BPCHS - Library Management System</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBook.resx">
+      <DependentUpon>ucBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBorrowBook.resx">
+      <DependentUpon>ucBorrowBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBorrower.resx">
+      <DependentUpon>ucBorrower.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucListofBorrowedBook.resx">
+      <DependentUpon>ucListofBorrowedBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLogHist.resx">
+      <DependentUpon>ucLogHist.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucReturnBook.resx">
+      <DependentUpon>ucReturnBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucUnreturnedBooks.resx">
+      <DependentUpon>ucUnreturnedBooks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucUser.resx">
+      <DependentUpon>ucUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfAccessionBooks.resx">
+      <DependentUpon>wfAccessionBooks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfBookClassification.resx">
+      <DependentUpon>wfBookClassification.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfBookReport.resx">
+      <DependentUpon>wfBookReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfBorrowersetting.resx">
+      <DependentUpon>wfBorrowersetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfBorrowerTypeSet.resx">
+      <DependentUpon>wfBorrowerTypeSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfBorrowerTypeSettings.resx">
+      <DependentUpon>wfBorrowerTypeSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfDeweySet.resx">
+      <DependentUpon>wfDeweySet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfForgotPassword.resx">
+      <DependentUpon>wfForgotPassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfHollidays.resx">
+      <DependentUpon>wfHollidays.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfHome.resx">
+      <DependentUpon>wfHome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfLogIn.resx">
+      <DependentUpon>wfLogIn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfPayment.resx">
+      <DependentUpon>wfPayment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfUser Setting.resx">
+      <DependentUpon>wfUser Setting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ucBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBook.designer.cs">
+      <DependentUpon>ucBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBorrowBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBorrowBook.designer.cs">
+      <DependentUpon>ucBorrowBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBorrower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBorrower.designer.cs">
+      <DependentUpon>ucBorrower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucListofBorrowedBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucListofBorrowedBook.designer.cs">
+      <DependentUpon>ucListofBorrowedBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucLogHist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLogHist.designer.cs">
+      <DependentUpon>ucLogHist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucReturnBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucReturnBook.designer.cs">
+      <DependentUpon>ucReturnBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucUnreturnedBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucUnreturnedBooks.designer.cs">
+      <DependentUpon>ucUnreturnedBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucUser.designer.cs">
+      <DependentUpon>ucUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfAccessionBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfAccessionBooks.designer.cs">
+      <DependentUpon>wfAccessionBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfBookClassification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfBookClassification.designer.cs">
+      <DependentUpon>wfBookClassification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfBookReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfBookReport.designer.cs">
+      <DependentUpon>wfBookReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfBorrowersetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfBorrowersetting.designer.cs">
+      <DependentUpon>wfBorrowersetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfBorrowerTypeSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfBorrowerTypeSet.designer.cs">
+      <DependentUpon>wfBorrowerTypeSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfBorrowerTypeSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfBorrowerTypeSettings.designer.cs">
+      <DependentUpon>wfBorrowerTypeSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfDeweySet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfDeweySet.designer.cs">
+      <DependentUpon>wfDeweySet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfForgotPassword.designer.cs">
+      <DependentUpon>wfForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfHollidays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfHollidays.designer.cs">
+      <DependentUpon>wfHollidays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfHome.designer.cs">
+      <DependentUpon>wfHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfLogIn.designer.cs">
+      <DependentUpon>wfLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfPayment.designer.cs">
+      <DependentUpon>wfPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfUser Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfUser Setting.designer.cs">
+      <DependentUpon>wfUser Setting.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bago.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groups-Meeting-Dark-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groups-Meeting-Dark-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\returnrbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listboorrower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\address-book-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\holiday-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder Closed Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log-Out-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
